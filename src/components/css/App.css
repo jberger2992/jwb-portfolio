@@ -1,0 +1,19 @@
+header{
+    background-color: #3d3e5f;
+    color:white;
+    padding:6px;
+    min-height: 7vh;
+    border:6px 6px #0f0f1b;
+}
+
+main{
+    min-height: 81vh;
+}
+
+footer{
+    background-color: #353655;
+    color:white;
+    padding:6px;
+    min-height: 7vh;
+    border:6px 6px #0f0f1b;
+}

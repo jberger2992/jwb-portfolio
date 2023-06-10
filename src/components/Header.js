@@ -1,8 +1,10 @@
 import React from "react";
 
-function Header(){
+function Header(props){
     return(<>
-        <h1>Header</h1>
+        <header>
+        <h1>Josh Berger</h1>
+        </header>
     </>)
 };
 

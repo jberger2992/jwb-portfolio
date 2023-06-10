@@ -24,10 +24,14 @@ function Page(){
     };
 
     return(<>
+    <div className='container'>
     <Header/>
-    <Navigation setPage={setPage}/>
+    <Navigation page={page} setPage={setPage}/>
+    <main>
     {displayPage()}
+    </main>
     <Footer/>
+    </div>
     </>)
 }
 

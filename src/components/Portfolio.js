@@ -9,6 +9,21 @@ const projects = [
         deployed:"https://jberger2992.github.io/watch-show/",
         repo:"https://github.com/jberger2992/watch-show"
     },
+    {
+        name:"Weather Dashboard",
+        deployed:"https://jberger2992.github.io/weather-dashboard/",
+        repo:"https://github.com/jberger2992/weather-dashboard"
+    },
+    {
+        name:"Code Quiz",
+        deployed:"https://jberger2992.github.io/code-quiz/",
+        repo:"https://github.com/jberger2992/code-quiz"
+    },
+    {
+        name:"Password Challenge",
+        deployed:"https://jberger2992.github.io/password-challenge/",
+        repo:"https://github.com/jberger2992/password-challenge"
+    },
 ]
 
     return(<>
