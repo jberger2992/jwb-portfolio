@@ -6,41 +6,49 @@ function Contact(){
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+    }
+
     return(<>
+        <div className="text-center">
         <h2>Contact</h2>
-        <form>
-            <label htmlFor="name">Name</label>
+        </div>
+        <div className="row justify-content-center">
+        <form className="col-8" onSubmit={handleSubmit}>
+            <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    className="form-control"
+                    value={name}
+                    onChange={(e)=> setName(e.target.value)}
+                    />
+            </div>
+            <div className="form-group">
+                <label htmlFor="email">Email</label>
+                <input
+                    type="text"
+                    name="email"
+                    className="form-control"
+                    value={email}
+                    onChange={(e)=> setEmail(e.target.value)}
+                />
+            </div>
+            <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea
+                    name="message"
+                    className="form-control"
+                    value={message}
+                    onChange={(e)=> setMessage(e.target.value)}
+                />
+            </div>
             <br />
-            <input
-                type="text"
-                name="name"
-                placeholder="name"
-                value={name}
-                onChange={(e)=> setName(e.target.value)}
-            />
-            <br />
-            <label htmlFor="email">Email</label>
-            <br />
-            <input
-                type="text"
-                name="email"
-                placeholder="email"
-                value={email}
-                onChange={(e)=> setEmail(e.target.value)}
-            />
-            <br />
-            <label htmlFor="message">Message</label>
-            <br />
-            <input
-                type="text"
-                name="message"
-                placeholder="message"
-                value={message}
-                onChange={(e)=> setMessage(e.target.value)}
-            />
-            <br />
-            <button>Submit</button>
+            <button className="btn btn-secondary">Submit</button>
         </form>
+        </div>
     </>)
 };
 

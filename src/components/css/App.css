@@ -17,3 +17,28 @@ footer{
     min-height: 7vh;
     border:6px 6px #0f0f1b;
 }
+
+img{
+    max-height:250px;
+    width:auto;
+}
+
+.atags{
+    color: #464ac7;
+    text-decoration: none;
+}
+.atags:hover{
+    color: #7173a3;
+}
+
+.atagz{
+    text-decoration: none;
+    color: #999bdb;
+}
+.atagz:hover{
+    color: #d7daff;
+}
+
+.ptitle{
+    font-size: xx-large;
+}
