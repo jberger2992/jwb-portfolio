@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation(props){
     return(<>
-        <nav className="navbar row justify-content-end">
+        <nav className="navx navbar row justify-content-end">
                 <a href="#portfolio"
                 className="nav-link col-2 col-lg-1"
                 onClick={()=> props.setPage("Portfolio")}
@@ -15,10 +15,10 @@ function Navigation(props){
                 className="nav-link col-2 col-lg-1"
                 onClick={()=> props.setPage("Resume")}
                 >Resume</a>
-                <a href="#contact"
+                {/* <a href="#contact"
                 className="nav-link col-2 col-lg-1"
                 onClick={()=> props.setPage("Contact")}
-                >Contact</a>
+                >Contact</a> */}
         </nav>
     </>)
 };

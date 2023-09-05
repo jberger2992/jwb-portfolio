@@ -7,19 +7,23 @@ header{
 }
 
 main{
-    min-height: 81vh;
+    min-height: 84.8vh;
 }
 
 footer{
     background-color: #353655;
     color:white;
     padding:6px;
-    min-height: 7vh;
+    min-height: 4vh;
     border:6px 6px #0f0f1b;
 }
 
+.navx{
+    min-height: 4vh;
+}
+
 img{
-    max-height:250px;
+    max-height:200px;
     width:auto;
 }
 

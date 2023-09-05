@@ -11,7 +11,7 @@ function AboutMe(){
                 <img src={image} alt="Me"/>
             </div>
             <div className="col-8 col-lg-6">
-                <p>I am a fullstack web development bootcamp student.</p>
+                <p>Fully-certified full-stack web developer trained at the University of Washington. Intuitive leader with focused problem-solving skills and an attention to detail that brings projects from conception to execution. Strengths include creativity, innovation, collaboration, and precision, as well as a multitude of technical skills developed in training boot camp.</p>
             </div>
         </div>
     </>)
