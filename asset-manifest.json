@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/jwb-portfolio/static/css/main.5d24b553.css",
-    "main.js": "/jwb-portfolio/static/js/main.1f1d029e.js",
+    "main.css": "/jwb-portfolio/static/css/main.3efeacec.css",
+    "main.js": "/jwb-portfolio/static/js/main.4986677f.js",
     "static/media/watchshowscreenshot.png": "/jwb-portfolio/static/media/watchshowscreenshot.13db13504b37e933e734.png",
     "static/media/326744746_709078617346308__n (2).jpg": "/jwb-portfolio/static/media/326744746_709078617346308_111090430906507366_n (2).4c0ed4e22d87406138a3.jpg",
-    "static/media/weatherss.png": "/jwb-portfolio/static/media/weatherss.c0c34859db2d87bada4a.png",
-    "static/media/passwordss.png": "/jwb-portfolio/static/media/passwordss.0ec0cb6952c17a3ca17b.png",
-    "static/media/codess.png": "/jwb-portfolio/static/media/codess.5ee488ceb1be1b219d74.png",
+    "static/media/CoA.png": "/jwb-portfolio/static/media/CoA.4678bae75a35c3819522.png",
+    "static/media/funparticles.png": "/jwb-portfolio/static/media/funparticles.512fb2cd8488408670a0.png",
     "index.html": "/jwb-portfolio/index.html",
-    "main.5d24b553.css.map": "/jwb-portfolio/static/css/main.5d24b553.css.map",
-    "main.1f1d029e.js.map": "/jwb-portfolio/static/js/main.1f1d029e.js.map"
+    "main.3efeacec.css.map": "/jwb-portfolio/static/css/main.3efeacec.css.map",
+    "main.4986677f.js.map": "/jwb-portfolio/static/js/main.4986677f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d24b553.css",
-    "static/js/main.1f1d029e.js"
+    "static/css/main.3efeacec.css",
+    "static/js/main.4986677f.js"
   ]
 }
